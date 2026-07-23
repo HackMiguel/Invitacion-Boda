@@ -1,0 +1,291 @@
+=================================================
+       INVITACION BODA MIGUEL ANGEL B L
+=================================================
+
+
+VERSION FINAL
+
+Invitación web desarrollada con:
+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- Diseño Responsive
+
+
+
+=================================================
+ESTRUCTURA DEL PROYECTO
+=================================================
+
+
+Invitacion-Boda
+
+│
+├── index.html
+│
+├── evento.ics
+│
+├── LEEME.txt
+│
+└── assets
+    │
+    ├── css
+    │   └── style.css
+    │
+    ├── js
+    │   ├── app.js
+    │   ├── countdown.js
+    │   └── gallery.js
+    │
+    ├── img
+    │   ├── portada.jpg
+    │   ├── foto1.jpg
+    │   ├── foto2.jpg
+    │   └── foto3.jpg
+    │
+    └── audio
+        └── A Thousand Years.mp3
+
+
+
+=================================================
+INSTALACION
+=================================================
+
+
+1.- Abrir la carpeta del proyecto con:
+
+Visual Studio Code
+
+
+2.- Instalar extensión:
+
+Live Server
+
+
+3.- Abrir:
+
+index.html
+
+
+4.- Clic derecho:
+
+Open with Live Server
+
+
+
+=================================================
+PERSONALIZACION
+=================================================
+
+
+
+1.- CAMBIAR NOMBRES
+
+
+Archivo:
+
+index.html
+
+
+Buscar:
+
+Nombre & Nombre
+
+
+Cambiar por:
+
+Miguel & María
+
+
+
+-------------------------------------------------
+
+
+2.- CAMBIAR FECHA DE BODA
+
+
+Archivo:
+
+assets/js/countdown.js
+
+
+Buscar:
+
+
+DECEMBER
+
+
+Modificar con la fecha real.
+
+
+Ejemplo:
+
+
+May 15, 2027 18:30:00
+
+
+
+-------------------------------------------------
+
+
+3.- CAMBIAR FOTOS
+
+
+Carpeta:
+
+
+assets/img/
+
+
+Reemplazar:
+
+
+portada.jpg
+
+foto1.jpg
+
+foto2.jpg
+
+foto3.jpg
+
+
+IMPORTANTE:
+
+Mantener los mismos nombres
+para evitar modificar código.
+
+
+
+-------------------------------------------------
+
+
+4.- CAMBIAR MUSICA
+
+
+Carpeta:
+
+
+assets/audio/
+
+
+Agregar:
+
+
+A Thousand Years.mp3
+
+
+Si cambia el nombre:
+
+Modificar en:
+
+index.html
+
+
+Buscar:
+
+
+A Thousand Years.mp3
+
+
+
+-------------------------------------------------
+
+
+5.- CAMBIAR UBICACION
+
+
+Archivo:
+
+index.html
+
+
+Buscar:
+
+
+https://maps.google.com
+
+
+Reemplazar con el enlace real
+de Google Maps.
+
+
+
+-------------------------------------------------
+
+
+6.- CONFIRMACION WHATSAPP
+
+
+Archivo:
+
+index.html
+
+
+Buscar:
+
+
+https://wa.me/
+
+
+Agregar número:
+
+Ejemplo:
+
+https://wa.me/521XXXXXXXXXX
+
+
+
+=================================================
+CALENDARIO
+=================================================
+
+
+Archivo:
+
+
+evento.ics
+
+
+Permite agregar el evento
+al calendario del celular.
+
+
+Modificar:
+
+- Nombre de novios
+- Fecha
+- Lugar
+- Horario
+
+
+
+=================================================
+PRUEBA FINAL
+=================================================
+
+
+Verificar:
+
+
+✓ La portada carga correctamente
+
+✓ Las fotos aparecen
+
+✓ La música funciona
+
+✓ El contador avanza
+
+✓ El botón WhatsApp abre correctamente
+
+✓ El mapa abre ubicación
+
+✓ Funciona en celular
+
+
+
+=================================================
+FIN
+=================================================

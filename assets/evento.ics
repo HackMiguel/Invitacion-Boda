@@ -1,0 +1,48 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Invitacion Boda Luxury PRO//ES
+
+BEGIN:VEVENT
+
+UID:boda-luxury-pro-2026
+
+DTSTAMP:20260712T120000Z
+
+
+SUMMARY:Nuestra Boda - Nombre & Nombre
+
+
+DESCRIPTION:
+Acompáñanos a celebrar nuestro día especial.
+Gracias por compartir este momento con nosotros.
+
+
+DTSTART:20261010T170000
+
+
+DTEND:20261010T230000
+
+
+LOCATION:
+Lugar de la celebración
+
+
+URL:https://maps.google.com
+
+
+BEGIN:VALARM
+
+TRIGGER:-PT60M
+
+ACTION:DISPLAY
+
+DESCRIPTION:
+Recordatorio de nuestra boda
+
+
+END:VALARM
+
+
+END:VEVENT
+
+END:VCALENDAR
