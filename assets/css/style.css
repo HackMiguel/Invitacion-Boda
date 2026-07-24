@@ -1,7 +1,6 @@
 /* =========================================
-   STYLE.CSS 
+   STYLE.CSS [MABL]
 ========================================= */
-
 :root {
 	--oro: #d4af37;
 	--oro-claro: #f8e7a2;
@@ -11,7 +10,6 @@
 	--texto: #3a171b;
 	--papel: #f8eee5;
 }
-
 
 /* =========================
    RESET GENERAL
@@ -48,7 +46,6 @@ h2 {
 	text-shadow: 0 1px 1px rgba(255, 255, 255, .4), 0 2px 3px rgba(0, 0, 0, .15);
 }
 
-
 /* =========================================
    OCULTAR INVITACION HASTA ABRIR SOBRE
 ========================================= */
@@ -67,7 +64,6 @@ body:not(.invitacion-abierta) .confirmacion {
 body:not(.invitacion-abierta) {
 	overflow: hidden;
 }
-
 
 /* =========================================
    SOBRE INICIAL CONTENEDOR
@@ -101,7 +97,6 @@ body:not(.invitacion-abierta) {
 	z-index: 5;
 }
 
-
 /* =========================================
    TITULO
 ========================================= */
@@ -113,7 +108,6 @@ body:not(.invitacion-abierta) {
 	color: #8b6b2c;
 	margin-bottom: 20px;
 }
-
 
 /* =========================================
    NOMBRES NOVIOS
@@ -135,7 +129,6 @@ body:not(.invitacion-abierta) {
 	margin: 0 clamp( 8px, 2vw, 20px);
 }
 
-
 /* =========================================
    FECHA
 ========================================= */
@@ -148,7 +141,6 @@ body:not(.invitacion-abierta) {
 	color: #8c795c;
 }
 
-
 /* =========================================
    TEXTO ABRIR
 ========================================= */
@@ -159,8 +151,6 @@ body:not(.invitacion-abierta) {
 	letter-spacing: clamp( 2px, 1vw, 5px);
 	color: #8b6b2c;
 }
-
-
 
 /* CONTENEDOR DEL SOBRE */
 
@@ -186,7 +176,6 @@ body:not(.invitacion-abierta) {
 	filter: blur(12px);
 	z-index: -1;
 }
-
 
 /*==================================
       DESTELLO
@@ -222,7 +211,6 @@ body:not(.invitacion-abierta) {
 	transform-style: preserve-3d;
 }
 
-
 /*==================================
         CARTA PREMIUM
 ==================================*/
@@ -246,7 +234,6 @@ body:not(.invitacion-abierta) {
 	transition: top 1.5s, transform 1.5s;
 }
 
-
 /* BORDE INTERIOR PAPEL */
 
 .tarjeta-invitacion::before {
@@ -258,7 +245,6 @@ body:not(.invitacion-abierta) {
 	border-radius: 4px;
 }
 
-
 /* BRILLO PAPEL */
 
 .tarjeta-invitacion::after {
@@ -268,7 +254,6 @@ body:not(.invitacion-abierta) {
 	background: radial-gradient(circle at 15% 15%, rgba(212, 175, 55, .10), transparent 30%), radial-gradient(circle at 80% 90%, rgba(139, 30, 45, .05), transparent 40%), repeating-linear-gradient( 90deg, rgba(0, 0, 0, .01) 0px, rgba(0, 0, 0, .01) 1px, transparent 1px, transparent 3px);
 	opacity: .8;
 }
-
 
 /* TEXTO CARTA */
 
@@ -307,7 +292,6 @@ body:not(.invitacion-abierta) {
 	display: block;
 }
 
-
 /*==================================
         FONDO DEL SOBRE
 ==================================*/
@@ -337,7 +321,6 @@ body:not(.invitacion-abierta) {
 	border: 1px solid rgba(212, 175, 55, .25);
 	border-radius: 10px;
 }
-
 
 /*==================================
       BORDE INTERIOR DEL SOBRE
@@ -377,7 +360,6 @@ body:not(.invitacion-abierta) {
 	border: 1px solid rgba(212, 175, 55, .28);
 }
 
-
 /*==================================
         SOLAPA LUXURY
 ==================================*/
@@ -412,7 +394,6 @@ body:not(.invitacion-abierta) {
 	border: 1px solid rgba(212, 175, 55, .30);
 	clip-path: inherit;
 }
-
 
 /*==================================
         FLORES PREMIUM
@@ -499,7 +480,6 @@ body:not(.invitacion-abierta) {
 	border: 2px solid rgba(255, 255, 255, .22);
 }
 
-
 .sello:focus,
 .sello:focus-visible,
 .sello:active {
@@ -534,7 +514,6 @@ body:not(.invitacion-abierta) {
         opacity: .2;
         transform: scale(.9);
     }
-
 }
 
 /* Animación suave */
@@ -543,7 +522,6 @@ body:not(.invitacion-abierta) {
 	transition: transform .35s ease, filter .35s ease, box-shadow .35s ease;
 }
 
-
 /* Al pasar el cursor */
 
 .sello:hover {
@@ -551,8 +529,6 @@ body:not(.invitacion-abierta) {
 	filter: brightness(1.08);
 	box-shadow: 0 18px 35px rgba(212, 175, 55, .40);
 }
-
-
 
 --------- error en el
 .sobre-solapa,
@@ -573,8 +549,6 @@ body:not(.invitacion-abierta) {
 	z-index: 3;
 }
 
-
-
 /* =========================================
    SELLO 
    EFECTO CERA
@@ -586,11 +560,9 @@ body:not(.invitacion-abierta) {
 	transition: 1s;
 }
 
-
 /* =========================================
    CARTA SALIENDO DEL SOBRE
 ========================================= */
-
 
 /* AL ABRIR */
 
@@ -690,7 +662,6 @@ body:not(.invitacion-abierta) {
 	transform: scale(1.05);
 }
 
-
 /* =========================================
    MUSICA
 ========================================= */
@@ -737,7 +708,6 @@ body:not(.invitacion-abierta) {
 	z-index: 12;
 }
 
-
 /* =========================================
    QR Invitacion
 ========================================= */
@@ -779,7 +749,6 @@ body:not(.invitacion-abierta) {
 	transform: scale(1.05);
 }
 
-
 /* solapa abierta */
 
 .sobre-portada .sobre-solapa {
@@ -787,23 +756,17 @@ body:not(.invitacion-abierta) {
 	z-index: 3;
 }
 
-
-
-
 /* sin sello */
 
 .sobre-portada .sello {
 	display: none;
 }
 
-
 /* sin movimiento */
-
 .sobre-portada .tarjeta-invitacion,
 .sobre-portada .sobre-solapa {
 	transition: none;
 }
-
 
 /*==================================
    SOBRE DE LA PORTADA
@@ -818,7 +781,6 @@ body:not(.invitacion-abierta) {
 	color: var(--oro);
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, .7);
 }
-
 
 .tarjeta-info {
 	position: absolute;
@@ -968,7 +930,7 @@ body:not(.invitacion-abierta) {
 }
 
 /*======================================
-        HISTORIA LUXURY
+        HISTORIA
 =======================================*/
 
 .historia {
@@ -1044,9 +1006,8 @@ body:not(.invitacion-abierta) {
     color:var(--oro);
 }
 
-
 /*==========================================
-        CONTADOR LUXURY V3
+        CONTADOR
 ==========================================*/
 
 .contador {
@@ -1145,9 +1106,8 @@ body:not(.invitacion-abierta) {
 	letter-spacing: 3px;
 }
 
-
 /*======================================
-        EVENTO LUXURY
+        EVENTO
 ======================================*/
 
 .evento-luxury {
@@ -1214,9 +1174,8 @@ body:not(.invitacion-abierta) {
 	margin: 20px 0;
 }
 
-
 /*======================================
-      BOTÓN LUXURY
+      BOTÓN
 ======================================*/
 
 .btn-luxury {
@@ -1290,37 +1249,26 @@ body:not(.invitacion-abierta) {
 ========================================= */
 
 .confirmacion{
-
     position:relative;
-
     padding:120px 20px;
-
     background:
     linear-gradient(
         rgba(95,16,28,.95),
         rgba(139,30,45,.95)
     ),
     url("../img/fondo-papel.jpg");
-
     background-size:cover;
-
     overflow:hidden;
-
     text-align:center;
-
 }
 
 
 /* brillo de fondo */
 
 .confirmacion::before{
-
     content:"";
-
     position:absolute;
-
     inset:0;
-
     background:
     radial-gradient(
         circle at top left,
@@ -1335,469 +1283,250 @@ body:not(.invitacion-abierta) {
 	animation: brillo 8s infinite alternate;
 }
 
-
 /* CONTENEDOR */
 
 .confirmacion .container{
-
     position:relative;
-
     z-index:2;
-
     max-width:700px;
-
 }
-
-
 
 /* subtitulo */
 
 .confirmacion .evento-subtitulo{
-
     color:#f8e7a2;
-
     letter-spacing:8px;
-
     font-size:14px;
-
 }
-
-
 
 /* TITULO */
 
 .confirmacion h2{
-
     margin-top:20px;
-
 }
-
-
 
 /* TEXTO */
 
 .confirmacion p{
-
     color:#fff8f5;
-
     font-size:18px;
-
     line-height:1.8;
-
 }
-
-
 
 /* TARJETA FORMULARIO */
 
 .form-confirmacion{
-
     margin:50px auto 0;
-
     padding:45px 35px;
-
     max-width:520px;
-
     background:
-
     linear-gradient(
         145deg,
         #fffdf8,
         #f6eadc
     );
-
-
     border-radius:25px;
-
-
     border:2px solid rgba(212,175,55,.6);
-
-
     box-shadow:
-
     0 25px 60px rgba(0,0,0,.35);
-
-
     display:flex;
-
     flex-direction:column;
-
     gap:22px;
-
-
     position:relative;
-
 }
-
-
 
 /* detalle dorado */
 
 .form-confirmacion::before{
-
     content:"";
-
     position:absolute;
-
     inset:12px;
-
     border:
-
     1px solid rgba(212,175,55,.35);
-
     border-radius:18px;
-
     pointer-events:none;
-
 }
-
-
 
 /* INPUTS */
 
 .form-confirmacion input[type="text"],
 .form-confirmacion input[type="number"]{
-
-
     width:100%;
-
     padding:16px 25px;
-
-
     border-radius:50px;
-
-
     border:
-
     1px solid rgba(139,30,45,.25);
-
-
     background:white;
-
-
     font-family:'Montserrat',sans-serif;
-
-
     text-align:center;
-
-
     font-size:15px;
-
-
     outline:none;
-
-
     transition:.3s;
-
 }
 
 
 
 .form-confirmacion input:focus{
-
     border-color:var(--oro);
-
     box-shadow:
-
     0 0 15px rgba(212,175,55,.35);
-
 }
-
-
 
 /* RADIO */
 
 .opciones{
-
     color:var(--vino);
-
     font-size:17px;
-
     position:relative;
-
     z-index:2;
-
 }
 
 
 .opciones input{
-
     accent-color:var(--vino);
-
 }
-
-
 
 /* BOTON WHATSAPP */
 
 .form-confirmacion .btn-luxury{
-
-
     background:
-
     linear-gradient(
         135deg,
         #8b1e2d,
         #5f101c
     );
-
-
     border:2px solid var(--oro);
-
-
     color:white;
-
-
     width:100%;
-
-
     font-size:14px;
-
-
 }
 
 
 .form-confirmacion .btn-luxury:hover{
-
-
     background:
-
     linear-gradient(
         135deg,
         #d4af37,
         #a87700
     );
-
-
     color:#5f101c;
-
-
 }
-
-
 
 /* ADORNO CORAZON */
 
 .confirmacion::after{
-
     content:"♥";
-
     position:absolute;
-
     bottom:20px;
-
     left:50%;
-
     transform:translateX(-50%);
-
-
     font-size:80px;
-
     color:rgba(212,175,55,.15);
-
     font-family:'Great Vibes';
-
 }
-
 
 .form-confirmacion{
-
     padding:35px 20px;
-
 }
-
 
 .confirmacion p{
-
     font-size:15px;
-
 }
 
-
-
-
 /* =====================================
-   PADRES Y PADRINOS LUXURY
+   PADRES Y PADRINOS
 ===================================== */
 
-
 .familia-luxury{
-
     padding:120px 20px;
-
     background:
     linear-gradient(
         rgba(255,248,245,.95),
         rgba(255,248,245,.95)
     ),
     url("../img/fondo-papel.jpg");
-
     background-size:cover;
-
     text-align:center;
-
 }
-
-
 
 .familia-grid{
-
     margin-top:60px;
-
     display:grid;
-
     grid-template-columns:
     repeat(auto-fit,minmax(280px,1fr));
-
     gap:40px;
-
 }
-
-
 
 .familia-card{
-
-
     background:white;
-
     padding:45px 30px;
-
     border-radius:25px;
-
     border:
-
     1px solid rgba(212,175,55,.35);
-
-
     box-shadow:
-
     0 20px 45px rgba(0,0,0,.12);
-
-
     transition:.4s;
-
-
 }
-
-
 
 .familia-card:hover{
-
-    transform:translateY(-10px);
-
+	transform:translateY(-10px);
 }
-
-
 
 .familia-card i{
-
-
     font-size:35px;
-
     color:var(--oro);
-
     margin-bottom:20px;
-
 }
-
-
 
 .familia-card h3{
-
-
     font-family:'Cormorant Garamond';
-
     font-size:35px;
-
     color:var(--vino);
-
-
 }
 
-
-
 .familia-card p{
-
-font-family:'Cormorant Garamond';
-
-font-size:32px;
-
-font-weight:600;
-
-color:#5a3a2e;
-
+	font-family:'Cormorant Garamond';
+	font-size:32px;
+	font-weight:600;
+	color:#5a3a2e;
 }
 
 
 /* PADRINOS */
-
-
 .padrinos-box{
-
     margin-top:90px;
-
     padding:50px 30px;
-
     background:
-
     linear-gradient(
         135deg,
         #8b1e2d,
         #5f101c
     );
-
     border-radius:30px;
-
     color:white;
-
 }
-
-
 
 .padrinos-box h2{
-
     color:#f8e7a2;
-
 }
-
-
 
 .padrinos-grid{
-
     display:grid;
-
     grid-template-columns:
     repeat(auto-fit,minmax(200px,1fr));
-
     gap:35px;
-
 }
-
-
 
 .padrinos-grid span{
-
-
     color:#f8e7a2;
-
     letter-spacing:3px;
-
     font-size:14px;
-
-
 }
 
-
-
 .padrinos-grid p{
-
-
     font-family:'Great Vibes';
-
     font-size:35px;
-
     margin-top:15px;
-
 }
 
 /* =========================================
@@ -1805,131 +1534,66 @@ color:#5a3a2e;
 ========================================= */
 
 .corazon{
-
     position:fixed;
-
     top:-40px;
-
     z-index:10000;
-
     pointer-events:none;
-
     animation-name:caer;
-
     animation-timing-function:linear;
-
     animation-fill-mode:forwards;
 
 }
 
 @keyframes caer {
-
 	0%{
 		transform:translateY(-50px) rotate(0deg);
 		opacity:1;
 	}
-
 	100%{
 		transform:translateY(110vh) rotate(360deg);
 		opacity:0;
 	}
-
 }
-/* =====================================================
-   RESPONSIVE GENERAL LIMPIO
-===================================================== */
-
 
 /* =========================================
    TABLET 992px
 ========================================= */
 
 @media(max-width:992px){
-
-
-   
-	
-
     /* SOBRE */
-
     .sobre-contenedor{
-
         width:min(75vw,420px);
-
     }
-
-
     /* PORTADA */
-
     .sobre-portada{
-
         width:min(75vw,420px);
-
     }
-
-
     .tarjeta-foto{
-
         width:100px;
         height:100px;
-
     }
-
-
     .tarjeta-foto2{
-
         width:90px;
         height:90px;
-
     }
-
-
-
     /* CONTADOR */
-
     .contador-grid{
-
         grid-template-columns:repeat(2,1fr);
-
     }
-
-
-
     .contador-item span{
-
         font-size:45px;
-
     }
-
-
-
     /* EVENTOS */
-
     .evento-grid{
-
         grid-template-columns:1fr;
-
     }
-
-
-
     /* FAMILIA */
-
     .familia-grid{
-
         grid-template-columns:1fr;
-
     }
-
-
-
     .padrinos-grid{
-
         grid-template-columns:repeat(2,1fr);
-
     }
-
-
 }
 
 
@@ -1939,57 +1603,28 @@ color:#5a3a2e;
 ========================================= */
 
 @media(max-width:768px){
-
-
     body{
-
         overflow-x:hidden;
-
     }
-
-
-
     h2{
-
         font-size:36px;
-
     }
-
-
-
     /* =========================
        SOBRE INICIAL
     ========================= */
-
-
     #sobre{
-
         padding:10px;
-
     }
-
-
     .inicio-boda{
-
         padding:5px;
-
     }
-
-
-
     .titulo-boda{
-
         font-size:13px;
-
         letter-spacing:4px;
-
     }
     .nombres-inicio{
         font-size:40px;
     }
-
-
-
     .fecha-inicio{
         font-size:12px;
         letter-spacing:3px;
@@ -2004,7 +1639,6 @@ color:#5a3a2e;
     .sello{
         width:60px;
         height:60px;
-
 	}
 	.sello span {
     	font-size: clamp(10px, 3vw, 120px);
@@ -2012,427 +1646,180 @@ color:#5a3a2e;
     /* =========================
        PORTADA
     ========================= */
-
-
     .sobre-portada{
-
         width:88vw;
-
         max-width:360px;
-
         transform:scale(.95);
-
     }
-
-
-
     .tarjeta-info{
-
         padding:20px 10px;
-
     }
-
-
-
     .frase{
-
         font-size:24px;
-
     }
-
-
-
     .nombres span{
-
         display:block;
-
         font-size:28px;
-
     }
-
-
-
     .nombres .amp{
-
         margin:5px 0;
-
     }
-
-
-
     .tarjeta-fecha{
-
         font-size:11px;
-
         letter-spacing:2px;
-
     }
-
-
-
     .tarjeta-foto{
-
         width:80px;
-
         height:90px;
-
         top:-55px;
-
         right:-5px;
-
     }
-
-
-
     .tarjeta-foto2{
-
         width:75px;
-
         height:75px;
-
         top:45px;
-
         right:0;
-
     }
-
-
-
-
     /* =========================
        CONTADOR
     ========================= */
-
-
     .contador{
-
         padding:80px 15px;
-
     }
-
-
-
     .calendario-luxury{
-
         width:100%;
-
         margin:35px auto;
-
     }
-
-
-
     .dias-semana span,
     .dias span{
-
         padding:10px 5px;
-
         font-size:12px;
-
     }
-
-
-
     .dia-boda{
-
         width:35px;
-
         height:35px;
-
     }
-
-
-
     .contador-grid{
-
         grid-template-columns:repeat(2,1fr);
-
         gap:12px;
-
         margin-top:35px;
-
     }
-
-
-
     .contador-item{
-
         padding:15px 8px;
-
         min-height:100px;
-
         border-radius:15px;
-
     }
-
-
-
     .contador-item span{
-
         font-size:32px;
-
     }
-
-
-
     .contador-item small{
-
         font-size:10px;
-
         letter-spacing:2px;
-
     }
-
-
-
-
     /* =========================
        GALERIA
     ========================= */
-
-
     .foto{
-
         height:230px;
-
     }
-
-
-
-
-
     /* =========================
        EVENTOS
     ========================= */
-
-
     .evento-card{
-
         padding:35px 20px;
-
     }
-
-
-
-
-
     /* =========================
        FAMILIA
     ========================= */
-
-
     .familia-luxury{
-
         padding:80px 15px;
 
     }
-
-
-
     .familia-card{
-
         padding:30px 20px;
-
     }
-
-
-
     .familia-card h3{
-
         font-size:30px;
-
     }
-
-
-
     .familia-card p{
-
         font-size:26px;
-
     }
-
-
-
-
-
     /* =========================
        PADRINOS
     ========================= */
-
-
     .padrinos-box{
-
         padding:35px 15px;
-
     }
-
-
-
     .padrinos-grid{
-
         grid-template-columns:1fr;
-
     }
-
-
-
     .padrinos-grid p{
-
         font-size:28px;
-
     }
-
-
-
-
-
     /* =========================
        RSVP
     ========================= */
-
-
     .confirmacion{
-
         padding:80px 15px;
-
     }
-
-
-
     .form-confirmacion{
-
         padding:30px 20px;
-
     }
-
-
-
     .btn-luxury{
-
         padding:14px 20px;
-
         font-size:12px;
-
     }
-
-
-
-
     /* MUSICA */
-
     #botonMusica{
-
         width:50px;
-
         height:50px;
-
         right:15px;
-
         bottom:15px;
-
         font-size:22px;
-
     }
-
 
 }
-
-
-
-
 
 /* =========================================
    CELULAR PEQUEÑO 480px
 ========================================= */
 
 @media(max-width:480px){
-
-
-
     .sobre-contenedor{
-
         width:90vw;
-
     }
-
-
-
-
     .nombres-inicio{
-
         font-size:35px;
-
     }
-
-
-
     .nombres-inicio span{
-
         font-size:45px;
-
     }
-
-
-
-
     .tarjeta-texto{
-
         font-size:25px;
-
     }
-
-
-
     .sello{
-
         width:52px;
-
         height:52px;
-
     }
-
-		.sello span {
-    font-size: clamp(8px, 3vw, 16px);
-}
-
+	.sello span {
+    	font-size: clamp(8px, 3vw, 16px);
+	}
     .frase{
-
         font-size:21px;
-
     }
-
-
-
     .nombres span{
         font-size:24px;
     }
-
-
-
-
     /* CONTADOR */
-
     .contador-grid{
-
         grid-template-columns:repeat(2,1fr);
-
     }
-
-
-
     .contador-item span{
-
         font-size:27px;
-
     }
-
-
     .contador-item small{
-
         font-size:9px;
-
     }
-
 
 }
 
@@ -2445,42 +1832,24 @@ color:#5a3a2e;
 ========================================= */
 
 @media(max-width:380px){
-
 	.sello span {
     	font-size: clamp(8px, 3vw, 16px);
 	}
 
     .sobre-contenedor{
-
         width:92vw;
-
     }
-
-
-
     .titulo-boda{
-
         font-size:12px;
-
     }
-
-
-
     .nombres-inicio{
-
         font-size:32px;
-
     }
-
-
-
     .tarjeta-texto{
-
         font-size:22px;
 
     }
     .contador-item{
-
         padding:10px 5px;
 
     }
