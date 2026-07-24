@@ -480,25 +480,6 @@ body:not(.invitacion-abierta) {
 	box-shadow: 0 8px 18px rgba(0, 0, 0, .30);
 }
 
-.sello::before {
-	animation: brilloSello 3s infinite;
-}
-
-@keyframes brilloSello {
-    0%{
-        opacity: .2;
-        transform: scale(.9);
-    }
-    50%{
-        opacity: 1;
-        transform: scale(1.08);
-    }
-    100%{
-        opacity: .2;
-        transform: scale(.9);
-    }
-
-}
 .sello::before{
     content:"";
     position:absolute;
@@ -540,6 +521,21 @@ body:not(.invitacion-abierta) {
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, .45), -1px -1px 2px rgba(0, 0, 0, .25);
 }
 
+@keyframes brilloSello {
+    0%{
+        opacity: .2;
+        transform: scale(.9);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.08);
+    }
+    100%{
+        opacity: .2;
+        transform: scale(.9);
+    }
+
+}
 
 /* Animación suave */
 
@@ -858,36 +854,66 @@ body:not(.invitacion-abierta) {
 }
 
 
-/* Frase */
+/* ==========================
+   FRASE
+========================== */
 
-.frase {
-	font-size: clamp(20px, 5vw, 38px);
-	line-height: 1.1;
+.frase{
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(22px, 3vw, 34px);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #7b5b38;
+    text-align: center;
+    max-width: 85%;
+    margin: 0 auto 8px;
+    letter-spacing: .5px;
 }
 
-
-/* Nombres */
-
-.nombres span:not(.amp) {
-	font-size: clamp(28px, 6vw, 30px);
-	line-height: 1;
-	white-space: normal;
+/* ==========================
+   NOMBRES
+========================== */
+.nombres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin: 2px 0;
 }
 
+.nombres span:not(.amp){
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(26px, 7vw, 12px);
+    color: var(--vino);
+    line-height: .95;
+    text-shadow: 0 2px 6px rgba(0,0,0,.12);
+}
 
-/* Símbolo & */
+/* ==========================
+   SÍMBOLO &
+========================== */
 
-.nombres .amp {
-	font-size: clamp(25px, 5vw, 35px);
+.nombres .amp{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(30px, 4vw, 42px);
+    font-weight: 600;
+    color: var(--oro);
+    margin: 4px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,.15);
 }
 
 
 /* Fecha */
 
 .tarjeta-fecha {
-	font-size: clamp(10px, 2.5vw, 12px);
-	letter-spacing: clamp(1px, 1vw, 4px);
-	white-space: normal;
+	font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(20px, 4vw, 16px);
+    font-weight: 600;
+    color: var(--oro);
+    margin: 4px 0;
+    text-shadow: 0 1px 3px rgba(0,0,0,.15);
 }
 
 
@@ -997,21 +1023,25 @@ body:not(.invitacion-abierta) {
 	color: #5a3a2e;
 }
 
-.firma-novios {
-	margin-top: 45px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 18px;
-	flex-wrap: wrap;
+.firma-novios{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    gap:0;
 	font-family: 'Great Vibes', cursive;
 	font-size: 42px;
 	color: var(--vino);
 }
 
-.firma-novios .amp {
-	color: var(--oro);
-	font-size: 55px;
+.firma-novios span{
+    display:block;
+}
+
+.firma-novios .amp{
+    font-size:32px;
+    color:var(--oro);
 }
 
 
@@ -1954,59 +1984,31 @@ color:#5a3a2e;
         letter-spacing:4px;
 
     }
-
-
-
     .nombres-inicio{
-
         font-size:40px;
-
     }
 
 
 
     .fecha-inicio{
-
         font-size:12px;
-
         letter-spacing:3px;
-
     }
-
-
-
     .sobre-contenedor{
-
         width:88vw;
-
         max-width:360px;
-
     }
-
-
-
-
     .tarjeta-texto{
-
         font-size:28px;
-
     }
-
-
-
-
     .sello{
-
         width:60px;
-
         height:60px;
 
-    }
-
-
-
-
-
+	}
+	.sello span {
+    	font-size: clamp(10px, 3vw, 120px);
+	}
     /* =========================
        PORTADA
     ========================= */
@@ -2389,8 +2391,9 @@ color:#5a3a2e;
 
     }
 
-
-
+		.sello span {
+    font-size: clamp(8px, 3vw, 16px);
+}
 
     .frase{
 
@@ -2401,9 +2404,7 @@ color:#5a3a2e;
 
 
     .nombres span{
-
         font-size:24px;
-
     }
 
 
@@ -2445,7 +2446,9 @@ color:#5a3a2e;
 
 @media(max-width:380px){
 
-
+	.sello span {
+    	font-size: clamp(8px, 3vw, 16px);
+	}
 
     .sobre-contenedor{
 
@@ -2486,6 +2489,14 @@ color:#5a3a2e;
         font-size:25px;
 
     }
+	.firma-novios{
+        font-size:32px;
+    }
+	.firma-novios .amp{
+		display: block;
+		text-align: center;
+		font-size:32px;
+	}
 }
 
 /* =========================================
@@ -2499,4 +2510,12 @@ color:#5a3a2e;
     .inicio-boda{
         transform:scale(.85);
     }
+	.firma-novios{
+        font-size:30px;
+    }
+	.firma-novios .amp{
+		display: block;
+		text-align: center;
+		font-size:32px;
+	}
 }

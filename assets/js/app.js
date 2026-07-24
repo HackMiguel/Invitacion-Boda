@@ -105,7 +105,7 @@ document.getElementById("formConfirmacion").addEventListener("submit", function(
     const personas = document.getElementById("personas").value;
     const respuesta = document.querySelector('input[name="respuesta"]:checked').value;
 
-    const telefono = "527121899419";
+    const telefono = "527291151552";
 
     let mensaje = `✨ *Confirmación de Asistencia* ✨\n\n`;
     mensaje += `👤 *Nombre:* ${nombre}\n\n`;
