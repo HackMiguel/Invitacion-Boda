@@ -785,9 +785,9 @@ body:not(.invitacion-abierta) {
 .tarjeta-info {
 	position: absolute;
 	left: 8%;
-	top: -95px;
-	width: 84%;
-	height: 110%;
+	top: -60;
+	width: 86%;
+	height: auto;
 	background: #faf5ec;
 	border-radius: 8px;
 	display: flex;
@@ -795,11 +795,14 @@ body:not(.invitacion-abierta) {
 	justify-content: center;
 	align-items: center;
 	padding: clamp(15px, 5vw, 30px);
-	z-index: 20;
 	box-shadow: 0 20px 40px rgba(0, 0, 0, .18);
-	transform: rotate(-2deg);
+	transform: translateY(-35%) rotate(-2deg);
 	overflow: hidden;
+	z-index: 20;
+	min-height: fit-content;
+    padding: 25px;
 }
+
 
 .tarjeta-info * {
 	max-width: 100%;

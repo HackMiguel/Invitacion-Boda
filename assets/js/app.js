@@ -124,3 +124,19 @@ document.getElementById("formConfirmacion").addEventListener("submit", function(
 
     window.open(url, "_blank");
 });
+
+document.addEventListener("visibilitychange", () => {
+
+    if (document.hidden) {
+        // La página dejó de estar activa
+        if (!musica.paused) {
+            musica.pause();
+        }
+    } else {
+        // La página volvió a estar activa
+        if (reproduciendo) {
+            musica.play().catch(() => {});
+        }
+    }
+
+});
